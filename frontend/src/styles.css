@@ -1,0 +1,116 @@
+/* Fondo rojo suave y centrar contenido */
+.page-container {
+  background-color: #f7d7d7;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo y título */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Formularios */
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Inputs y selects */
+input, select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Botones */
+.button {
+  background-color: #f0f0f0;
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Específicos */
+.logout-button {
+  margin-left: auto;
+}
+.cancel-button {
+  background-color: #ccc;
+}
+.edit-button {
+  background-color: #ffd966;
+}
+.delete-button {
+  background-color: #ff7b7b;
+}
+
+/* Lista de tareas */
+.task-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.task-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.task-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Errores */
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Filtros */
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
